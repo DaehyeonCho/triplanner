@@ -2,8 +2,7 @@ import logging
 import openai
 import azure.functions as func
 
-secret_key = "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"
-
+secret_key = "My API key"
 # 생성 샘플
 # {"prompt" : "Goku running though a field", "n" : 1, "size" : "1024x1024"}
 
