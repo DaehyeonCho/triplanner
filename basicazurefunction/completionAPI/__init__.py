@@ -2,7 +2,7 @@ import logging
 import openai
 import azure.functions as func
 
-secret_key = "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"
+secret_key = "My API key"
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
